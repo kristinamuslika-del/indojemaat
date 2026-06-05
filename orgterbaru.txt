@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Struktur Organisasi</title>
+    <style>
+        :root { 
+            --primary: #1e3a5f;
+            --accent: #2c95ca;
+            --bg: #f4f7f6;
+            --text: #2d3436;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 16px;
+        }
+        .wrapcontent{max-width: 500px;margin:10px auto;}
+
+        h1 { text-align: center; color: var(--primary); font-size: 24px; margin-bottom: 20px; }
+        
+        .section-title {
+            color: var(--primary);
+            font-size: 18px;
+            font-weight: 700;
+            margin: 30px 0 15px;
+            padding-left: 10px;
+            border-left: 5px solid var(--accent);
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .group-label { font-size: 14px; color: var(--accent); font-weight: 700; margin-bottom: 10px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+        .jabatan { font-size: 11px; color: #636e72; font-weight: 700; text-transform: uppercase; }
+        .nama { font-size: 14px; font-weight: 600; color: #000000; margin-bottom: 10px; }
+        .list-item { font-size: 13px; color: #2d3436; padding: 2px 0; }
+    </style>
+</head>
+<body>
+<div class="wrapcontent">
+    <h1>ORGANISASI terbaru</h1>
+
+    <div class="section-title">I. Kepengurusan Majelis Jemaat</div>
+    
+    <div class="card">
+        <div class="group-label">Pelaksana Harian</div>
+        <div class="jabatan">Ketua</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Wakil Ketua</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Sekretaris</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Wakil Sekretaris</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Bendahara</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Bendahara Barang</div><div class="nama">ISI NAMA</div>
+    </div>
+
+    <div class="card">
+        <div class="group-label">Urusan Pelayanan & Pembinaan</div>
+        <div class="jabatan">Sekretaris</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Anggota</div>
+        <div class="list-item">1) ISI NAMA<br>2) ISI NAMA<br>3) ISI NAMA<br>4) ISI NAMA<br>5) ISI NAMA<br>6) ISI NAMA</div>
+    </div>
+
+    <div class="card">
+        <div class="group-label">Urusan Misi, Penginjilan, Pemuridan & Kemitraan</div>
+        <div class="jabatan">Sekretaris</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Anggota</div>
+        <div class="list-item">1) ISI NAMA<br>2) ISI NAMA<br>3) ISI NAMA<br>4) ISI NAMA<br>5) ISI NAMA<br>6) ISI NAMA</div>
+    </div>
+
+    <div class="card">
+        <div class="group-label">Urusan Pelayanan Kasih & Keadilan</div>
+        <div class="jabatan">Sekretaris</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Anggota</div>
+        <div class="list-item">1) ISI NAMA<br>2) ISI NAMA<br>3) ISI NAMA<br>4) ISI NAMA<br>5) ISI NAMA<br>6) ISI NAMA</div>
+    </div>
+
+    <div class="card">
+        <div class="group-label">Urusan Aset, Ekonomi, Keuangan & Pembangunan</div>
+        <div class="jabatan">Sekretaris</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Anggota</div>
+        <div class="list-item">1) ISI NAMA<br>2) ISI NAMA<br>3) ISI NAMA<br>4) ISI NAMA<br>5) ISI NAMA</div>
+    </div>
+
+    <div class="card">
+        <div class="group-label">Urusan Pengembangan SDM, Kebudayaan & Penelitian</div>
+        <div class="jabatan">Sekretaris</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Anggota</div>
+        <div class="list-item">1) ISI NAMA<br>2) ISI NAMA<br>3) ISI NAMA<br>4) ISI NAMA</div>
+    </div>
+
+    <div class="card">
+        <div class="group-label">Koordinator Rayon</div>
+        <div class="jabatan">Rayon Diaspora</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Rayon Nazaret</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Rayon Immanuel</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Rayon Effata</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Rayon Getsemani</div><div class="nama">ISI NAMA</div>
+    </div>
+
+    <div class="section-title">II. Kepengurusan Unsur-Unsur Jemaat</div>
+
+    <div class="card">
+        <div class="group-label">1. Persekutuan Kaum Bapak (PKB)</div>
+        <div class="jabatan">Ketua</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Wakil Ketua</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Sekretaris</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Wakil Sekretaris</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Bendahara</div><div class="nama">ISI NAMA</div>
+    </div>
+
+    <div class="card">
+        <div class="group-label">2. Persekutuan Wanita (PW)</div>
+        <div class="jabatan">Ketua</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Wakil Ketua</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Sekretaris</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Wakil Sekretaris</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Bendahara</div><div class="nama">ISI NAMA</div>
+    </div>
+
+    <div class="card">
+        <div class="group-label">3. Persekutuan Anggota Muda (PAM)</div>
+        <div class="jabatan">Ketua</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Wakil Ketua</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Sekretaris</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Wakil Sekretaris</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Bendahara</div><div class="nama">ISI NAMA</div>
+    </div>
+
+    <div class="card">
+        <div class="group-label">4. Persekutuan Anak dan Remaja (PAR)</div>
+        <div class="jabatan">Ketua</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Wakil Ketua</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Sekretaris</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Wakil Sekretaris</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Bendahara</div><div class="nama">ISI NAMA</div>
+    </div>
+
+    <div class="card">
+        <div class="group-label">5. Bagian Umum (Kepegawaian)</div>
+        <div class="jabatan">Tata Usaha</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Tenaga Teknisi</div><div class="nama">ISI NAMA</div>
+        <div class="jabatan">Kostor</div><div class="nama">ISI NAMA</div>
+    </div>
+</div>
+</body>
+</html>
