@@ -21,7 +21,7 @@
     <body>
         <div class="wrapcontent">
          <div class = "phmj">
-            <div class="content">
+            <div class="content"> 
             <p>Bagi anggota jemaat yang membutuhkan pelayanan dapat menghubungi Koordinator Majelis atau Koordinator Intra (PKB, PW, PAM, dan PAR) di  masing-masing Rayon atau langsung kepada Pelaksana Harian Majelis Jemaat #NAMA JEMAAT# di Kantor Jemaat setiap hari jam kerja:</p>
             
                 <div class="hari">Senin s/d Jumat</div>
